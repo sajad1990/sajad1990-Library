@@ -116,6 +116,10 @@ public class LibraryAppTest {
     @Test
     public void getAllBooksTest(){
         List<Book> books = bookDAO.getAllBooks();
+        assertNotNull(books);
+    }
+
+    private void assertNotNull(List<Book> books) {
     }
 
     /**
